@@ -1,0 +1,38 @@
+### Java ###
+*.class
+*.log
+*.jar
+*.war
+*.ear
+target/
+build/
+.gradle/
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+out/
+gen/
+
+### Eclipse ###
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.classpath
+.project
+.factorypath
+
+### Docker & Environment ###
+# DB 비밀번호 등 민감 정보가 포함될 수 있는 파일
+.env
+docker-compose.override.yml
+
+### Operating System ###
+.DS_Store
+Thumbs.db
