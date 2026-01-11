@@ -33,7 +33,8 @@ local.properties
 # DB 비밀번호 등 민감 정보가 포함될 수 있는 파일
 .env
 docker-compose.override.yml
-db.properties
+.properties
+
 
 ### Operating System ###
 .DS_Store
